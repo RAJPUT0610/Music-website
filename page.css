@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<header id="header">
+		<nav>
+			<img src="logo.png" alt="MNTN Logo">
+			<ul>
+	<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="hero">
+		<h1>Welcome to MNTN</h1>
+		<p>Discover the beauty of the mountains</p>
+		<a href="#" class="cta">Learn More</a>
+	</section>
+</body>
+</html>
+/* body {
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+ */
+
+ *{
+    box-sizing: border-box;
+ }
+body {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+}
+
+.hero .cta {
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta:hover {
+    background-color: #f0f0f0;
+}
+body #header nav{
+    width: 50%;
+}
+
+nav{
+    width: 100%;
+}
